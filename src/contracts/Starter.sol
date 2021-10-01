@@ -1,19 +1,18 @@
-pragma solidity 0.8;
+pragma solidity 0.7.0;
 
 contract Starter {
-  address public owner;
+    address public owner;
 
-  constructor(){
-    owner = msg.sender;
-  }
+    constructor() {
+        owner = msg.sender;
+    }
 
-  modifier onlyOwner {
-    require(owner == msg.sender);
-    _;
-  }
+    modifier onlyOwner() {
+        require(owner == msg.sender);
+        _;
+    }
 
-  function helloSolidity() public onlyOwner returns(string memory){
-    return "Hello Solidity";
-  }
-
+    function helloSolidity() public onlyOwner returns (string memory) {
+        return "Hello Solidity";
+    }
 }
