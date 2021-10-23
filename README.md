@@ -1,6 +1,6 @@
 # solidity-boilerplate
 
-This is a template repository that serves as the basis for my Solidity based projects. You can use this as a starting point, and add on any other tools, like frontend e.g. SCSS, TailwindCSS etc. Do note that this boilerplate comes with React, so if you do use any other tools apart from that, you'll have to tweak a few things.
+This is a template repository that serves as the basis for my Solidity projects. You can use this as a starting point, and add any other tools you feel are suited. Do note that this boilerplate comes with React, TailwindCSS, and Web3, so if you want to use any other tools apart from that, you'll have to tweak a few things yourself.
 
 This includes:
 - `Migrations` directory hosts your migration files
